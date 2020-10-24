@@ -8,6 +8,16 @@
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="cursive"
+        android:text="Etergram"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
     <EditText
         android:id="@+id/etUsername"
         android:layout_width="match_parent"
@@ -30,7 +40,18 @@
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:layout_below="@+id/etPassword"
+        android:layout_weight="1"
+        android:backgroundTint="#03A9F4"
         android:text="Login" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPassword"
+        android:layout_weight="1"
+        android:backgroundTint="#63F369"
+        android:text="Sign Up" />
+
 </LinearLayout>
