@@ -5,16 +5,14 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
-<!--    <queries>-->
-<!--        &lt;!&ndash; Camera &ndash;&gt;-->
-<!--        <intent>-->
-<!--            <action android:name="android.media.action.IMAGE_CAPTURE" />-->
-<!--        </intent>-->
-<!--        &lt;!&ndash; Gallery &ndash;&gt;-->
-<!--        <intent>-->
-<!--            <action android:name="android.intent.action.GET_CONTENT" />-->
-<!--        </intent>-->
-<!--    </queries>-->
+    <queries>
+
+        <!-- Camera -->
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+
+    </queries>
 
     <application
         android:name=".ParseApplication"
